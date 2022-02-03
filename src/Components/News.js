@@ -129,7 +129,8 @@ export class News extends Component {
           hasMore={this.state.articles.length !== this.state.totalResults}
           loader={<Spinner/>}
         >
-          <div className="container">
+
+        <div className="container">
         <div className="row">
           {this.state.articles.map((element) => {
               return (
@@ -172,7 +173,7 @@ export class News extends Component {
         </div>
           <footer id="sticky-footer" class="flex-shrink-0 py-2 bg-dark text-white-50">
     <div class=" text-center">
-      <small>Copyright &copy; ApnaNews - Made by <a className="myname" href="https://github.com/Navdeepmaheshwari/My-Portfolio/" style={{color:'red',textDecoration:'none'}} > Navdeep Maheshwari</a></small>
+      <small>Copyright &copy; ApnaNews - Made by <a className="myname" href="https://github.com/Navdeepmaheshwari/My-Portfolio/" style={{color:'red',textDecoration:'none'}} > Navdeep Maheshwari </a></small>
     </div>
   </footer>
       </>
